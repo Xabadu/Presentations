@@ -364,110 +364,6 @@ public class HelloWorldActivity extends Activity {
 					<p>a.k.a.</p>
 					<p>JavaScript... es como Java, ¿no?</p>
 				</section>
-
-				<section>
-					<section>
-						<p>Mientras cosas cool de la Web se adaptaban a móvil...</p>
-						<p class="fragment">Nuevas cosas (aún más cool) estaban pasando</p>
-					</section>
-					<section>
-						<ul>
-							<li>Programación reactiva</li>
-							<li class="fragment">Backend as a Service</li>
-							<li class="fragment">Estado de aplicaciones</li>
-							<li class="fragment">Web components</li>
-							<li class="fragment">Continuous Delivery</li>
-							<li class="fragment">Y más...</li>
-						</ul>
-					</section>
-				</section>
-				<section>
-					<section>
-						<h2>Backend as a Service</h2>
-						<aside class="notes">
-							Parte con un problema. App móvil pero hay q desarrollar backend, levantar server, BBDD y más. Implica tiempo y costos, además de expertise que dev móviles a veces no tienen. Empresas asumen el desafío
-						</aside>
-					</section>
-					<section>
-						<ul class="autobombo-list">
-							<li>Rapidez</li>
-							<li class="fragment">Costo</li>
-							<li class="fragment">Escalabilidad</li>
-							<li class="fragment">Simpleza</li>
-						</ul>
-						<img src="images/parse-logo.png" width="30%" class="right"><br>
-						<img src="images/firebase-logo.jpg" width="30%" class="right">
-						<aside class="notes">
-							Proveen API, infraestructura, estabilidad. Y Simplifican mucho algunas tareas que antes costaban, como por ejemplo:
-						</aside>
-					</section>
-					<section>
-						<p>Notificaciones Push</p>
-						<pre>
-							<code class="hljs" data-trim contenteditable>
-								ParsePush push = new ParsePush();
-push.setMessage("And his name is John Cena!.");
-push.sendInBackground();
-							</code>
-						</pre>
-						<aside class="notes">
-							Hay una fase de config que sigue siendo tediosa, pero mejoran la operación.
-						</aside>
-					</section>
-					<section>
-						<p>Save Eventually</p>
-						<pre>
-							<code class="hljs" data-trim contenteditable>
-								ParseObject gameScore = new ParseObject("GameScore");
-gameScore.put("score", 1337);
-gameScore.put("playerName", "John Cena");
-gameScore.saveEventually();
-							</code>
-						</pre>
-						<aside class="notes">
-							Solucionan problema de fallas de conexión y guarda remota de datos.
-							¿Qué podemos decir ante todo esto?
-						</aside>
-					</section>
-					<section>
-						<img src="images/parse-apps1.png">
-					</section>
-					<section>
-						<img src="images/parse-apps2.png">
-					</section>
-					<section>
-						<img src="images/parse-apps3.png">
-					</section>
-					<section>
-						<img src="images/parse-apps4.png">
-					</section>
-					<section>
-						<img src="images/thanks.gif" width="100%">
-					</section>
-				</section>
-				<section>
-					<section>
-						<h2>Continuous Delivery</h2>
-						<img src="images/delivery.gif" width="50%">
-						<aside class="notes">
-							En Web estábamos haciendo las cosas cada vez más rápido. Así que nace la gran pregunta:
-						</aside>
-					</section>
-					<section>
-						<p>Si codeamos rápido, ¿por qué no subir rápido?</p>
-						<img src="images/no.gif" width="50%" class="fragment">
-						<aside class="notes">
-							Ahí es cuando aparecen nuestros amigos dueños de las plataformas y que no les gusta la velocidad.
-						</aside>
-					</section>
-					<section>
-						<img src="images/apphub.png" width="45%"><br>
-						<img src="images/ionic-deploy.png" width="45%">
-						<aside class="notes">
-							Por eso nacen nuevas alternativas. Deployar sin pasar por las stores. Llevar los cambios al usuario lo más rápido posibles. Pero nos faltaba cambiar algo. DX EN EL CODIGO!
-						</aside>
-					</section>
-				</section>
 				<section>
 					<p>Mientras tanto, en otra "pequeña" Startup</p>
 					<img src="images/facebook.png" class="fragment" width="25%">
@@ -477,38 +373,14 @@ gameScore.saveEventually();
 					</aside>
 				</section>
 				<section>
-					<section>
-						<p>Todo estaba por cambiar en base a 2 conceptos:</p>
-						<ul class="autobombo-list">
-							<li class="fragment">Estado de las aplicaciones</li>
-							<li class="fragment">Web components</li>
-						</ul>
-						<aside class="notes">
-							Interesante. Tienes mi atención. Y permite cambiar código laaaargo (como el de antes), por cosas como:
-						</aside>
-					</section>
-					<section>
-						<img src="images/react-native1.png" width="50%">
-						<img src="images/react-native2.png" width="50%">
-						<aside class="notes">
-							Mi reacción cuando lo vi?
-						</aside>
-					</section>
-					<section>
-						<img src="images/jawdrop.gif" width="100%">
-						<aside class="notes">
-							¿Quieren saber como? Próxima charla!
-						</aside>
-					</section>
-				</section>
-				<section>
-					<section>
-						<h2>¿El secreto?</h2>
-						<p class="fragment">A continuación :D</p>
-					</section>
-					<section>
-						<h1>¡Gracias!</h1>
-					</section>
+					<p>Todo estaba por cambiar en base a 2 conceptos:</p>
+					<ul class="autobombo-list">
+						<li class="fragment">Estado de las aplicaciones</li>
+						<li class="fragment">Web components</li>
+					</ul>
+					<aside class="notes">
+						Interesante. Tienes mi atención. Y permite cambiar código laaaargo (como el de antes), por cosas como:
+					</aside>
 				</section>
 			</div>
 
