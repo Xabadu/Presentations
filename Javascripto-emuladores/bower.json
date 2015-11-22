@@ -12,7 +12,9 @@
     "Hakim El Hattab <hakim.elhattab@gmail.com>"
   ],
   "dependencies": {
-    "headjs": "~1.0.3"
+    "headjs": "~1.0.3",
+    "font-awesome": "~4.4.0",
+    "font-mfizz": "~2.0.1"
   },
   "repository": {
     "type": "git",
