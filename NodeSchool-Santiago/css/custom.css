@@ -27,3 +27,7 @@
   margin-top: 15px !important;
   list-style-type: circle !important;
 }
+
+.img-middle {
+  vertical-align: middle !important;
+}
