@@ -1,0 +1,41 @@
+.plain-image {
+  border: 0 !important;
+  background: none !important;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+};
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.autobombo-list {
+  margin-top: 15px !important;
+  list-style-type: circle !important;
+}
+
+.img-middle {
+  vertical-align: middle !important;
+}
+
+.dark-gray-text {
+  color: #212121 !important;
+}
+
+.quote {
+  font-size: 48px !important;
+}
